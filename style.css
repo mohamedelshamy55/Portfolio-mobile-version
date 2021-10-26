@@ -191,6 +191,21 @@ nav {
   letter-spacing: 0.03em;
 }
 
+.project-button:disabled {
+  width: 150px;
+  height: 48px;
+  background: #2230d2;
+  color: #5e6c84;
+  border: solid #c1c7d0 1px;
+  border-radius: 8px;
+  padding: 12px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  cursor: not-allowed;
+}
+
 /* work style section ends */
 
 /* about me style section start */
