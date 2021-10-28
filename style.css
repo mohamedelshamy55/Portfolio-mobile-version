@@ -351,40 +351,40 @@ label {
     justify-content: space-around;
     align-items: center;
   }
-  
+
   #nav-logo {
     width: 76px;
     height: 20px;
   }
-  
+
   .nav-btn {
     display: none;
   }
-  
+
   .nav-items {
     display: flex;
   }
-  
+
   .nav-items li {
     list-style: none;
     padding: 0 10px;
   }
-  
+
   .nav-items a {
     color: #344563;
     text-decoration: none;
     padding: 0 10px;
   }
-  
+
   h1 {
     font-size: 40px;
     font-weight: bolder;
   }
-  
+
   h1:nth-child(odd) {
     margin-top: 259px;
   }
-  
+
   .headline {
     background-image: url(headlbg.png);
     background-color: white;
@@ -398,14 +398,14 @@ label {
     padding: 0 200px 0 200px;
     margin-bottom: 70px;
   }
-  
+
   .headline p {
     margin: 12px 0;
     width: 80%;
   }
-  
+
   /* work style section start */
-  
+
   .work {
     display: grid;
     justify-content: center;
@@ -415,7 +415,7 @@ label {
     gap: 71px 0;
     grid-template-areas: "container" "container" "container" "container" "container";
   }
-  
+
   .container {
     background: #fff;
     display: flex;
@@ -423,7 +423,7 @@ label {
     border-radius: 24px;
     padding: 20px;
   }
-  
+
   .container-reverse {
     background: #fff;
     display: flex;
@@ -431,7 +431,7 @@ label {
     border-radius: 24px;
     padding: 20px;
   }
-  
+
   .container-description {
     display: flex;
     flex-direction: column;
@@ -439,13 +439,13 @@ label {
     padding: 20px;
     width: 496px;
   }
-  
+
   .snapshoot-img {
     max-width: 100%;
     max-height: 100%;
     flex: 1;
   }
-  
+
   .project-title {
     font-style: normal;
     font-weight: 900;
@@ -453,33 +453,33 @@ label {
     line-height: 44px;
     margin-top: 48px;
   }
-  
+
   .frame {
     display: flex;
     justify-content: start;
     align-items: center;
     margin-top: 20px;
   }
-  
+
   .frame h3 {
     font-weight: 600;
     font-size: 13px;
     line-height: 16px;
   }
-  
+
   .counter {
     margin: 0 10px;
   }
-  
+
   .tags {
     padding: 0;
     margin: 12px 0;
   }
-  
+
   .description {
     margin-top: 32px;
   }
-  
+
   .tag-style {
     float: left;
     background: #ebebff;
@@ -495,11 +495,11 @@ label {
     text-align: center;
     list-style: none;
   }
-  
+
   /* work style section ends */
-  
+
   /* about me style section start */
-  
+
   .social-connect {
     text-decoration: none;
     color: #7f8cff;
@@ -508,7 +508,7 @@ label {
     font-size: 16px;
     line-height: 24px;
   }
-  
+
   .about-me {
     display: flex;
     flex-direction: row;
@@ -517,7 +517,7 @@ label {
     margin-top: 20px;
     padding: 20px;
   }
-  
+
   .aboutme-title {
     font-weight: 900;
     font-size: 65px;
@@ -525,16 +525,16 @@ label {
     margin: 75px 0 10px 0;
     width: 30px;
   }
-  
+
   .about-me li {
     list-style: none;
     list-style-position: inside;
   }
-  
+
   .about-me ul {
     padding: 0;
   }
-  
+
   .skills {
     display: flex;
     justify-content: space-between;
@@ -542,7 +542,7 @@ label {
     width: 100%;
     margin-right: 45px;
   }
-  
+
   .langguages-list {
     display: flex;
     flex-direction: column;
@@ -555,38 +555,38 @@ label {
     height: auto;
     padding: 12px;
   }
-  
+
   .langguages-list li {
     padding: 0 5px;
   }
-  
+
   .list-items {
     width: 60%;
     margin-top: 75px;
     padding-left: 35px;
     padding-right: 142px;
   }
-  
+
   .left-items {
     width: 40%;
     padding-left: 142px;
   }
-  
+
   .lg-list-horizontal {
     display: flex;
   }
-  
+
   .about-me-description {
     font-size: 16px;
     line-height: 24px;
     width: 447px;
     margin: 15px 0;
   }
-  
+
   /* about me style section ends */
-  
+
   /* contact me section */
-  
+
   .contact-section div {
     height: 779px;
     background-color: #6070ff;
@@ -601,11 +601,11 @@ label {
     align-items: center;
     padding: 20px;
   }
-  
+
   .contact-section {
     background: #fff;
   }
-  
+
   .contact-me-tittle {
     font-weight: 900;
     font-size: 40px;
@@ -615,7 +615,7 @@ label {
     text-align: center;
     margin-top: 70px;
   }
-  
+
   .contact-section p {
     color: #ebebff;
     font-size: 20px;
@@ -624,26 +624,26 @@ label {
     margin-top: 12px;
     max-width: 447px;
   }
-  
+
   #contact-form {
     margin-bottom: 25px;
   }
-  
+
   #contact-form li {
     list-style: none;
   }
-  
+
   label {
     display: none;
   }
-  
+
   #contact-form ul {
     padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
+
   input {
     background: #fff;
     border: 1px solid #cfd8dc;
@@ -651,7 +651,7 @@ label {
     margin-top: 16px;
     width: 447px;
   }
-  
+
   textarea {
     width: 447px;
     height: 170px;
@@ -659,7 +659,7 @@ label {
     padding-top: 8px;
     margin-top: 16px;
   }
-  
+
   /* contact me section end */
-  
+
 }
