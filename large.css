@@ -103,7 +103,7 @@
     margin: 0 142px 44px 25px;
   }
 
-  .languages >ul > li img {
+  .languages > ul > li img {
     margin-right: 42px;
   }
 
@@ -119,8 +119,8 @@
     margin-bottom: 20px;
   }
 
-  .languages >ul > li:nth-child(3n),
-  .languages >ul > li.dropdown-list {
+  .languages > ul > li:nth-child(3n),
+  .languages > ul > li.dropdown-list {
     padding-top: 12px;
   }
 
@@ -129,35 +129,35 @@
     font-size: 18px;
   }
 
-  .languages >ul > li.dropdown-list ul {
+  .languages > ul > li.dropdown-list ul {
     display: grid;
     grid-template-columns: repeat(3, 33.333333%);
     width: 80%;
   }
 
-  .languages >ul > li.dropdown-list ul li {
+  .languages > ul > li.dropdown-list ul li {
     padding: 12px 16px 20px 12px;
     align-items: flex-start;
   }
 
-  .languages >ul > li.dropdown-list ul li:first-child {
+  .languages > ul > li.dropdown-list ul li:first-child {
     margin-left: 0;
   }
 
-  .languages >ul > li.dropdown-list ul li img {
+  .languages > ul > li.dropdown-list ul li img {
     width: 48px;
     height: 48px;
   }
 
-  .languages >ul > li.dropdown-list ul li span {
+  .languages > ul > li.dropdown-list ul li span {
     margin: 16px 0 0;
   }
 
-  .languages >ul > li.divider {
+  .languages > ul > li.divider {
     padding-top: 0;
   }
 
-  .languages >ul > li.divider hr {
+  .languages > ul > li.divider hr {
     margin: 0;
   }
 
@@ -186,7 +186,7 @@
   footer .contact-heading > p {
     margin: 12px 0 36px;
   }
-    
+
   footer .contact-form form input,
   footer .contact-form form textarea {
     margin: 0 0 27px;
