@@ -82,8 +82,8 @@ section.hero-section {
   align-items: center;
 }
 
-.hero-section >ul > li,
-.about-section >ul > li {
+.hero-section > ul > li,
+.about-section > ul > li {
   margin-right: 20px;
 }
 
