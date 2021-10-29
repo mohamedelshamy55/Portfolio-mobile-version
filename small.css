@@ -5,29 +5,29 @@
 }
 
 header {
- display: flex;
- justify-content: space-between;
- background: #fff;
- align-items: center;
- padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  align-items: center;
+  padding: 24px;
 }
 
 header .logo a {
- font-style: normal;
- font-weight: bold;
- font-size: 18px;
- line-height: 20px;
- color: #6070ff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
 }
 
 header nav .desktop-menu {
- display: none;
+  display: none;
 }
 
 /* Hero Section  & About Section */
 
 main {
- background-color: #f6f7f8;
+  background-color: #f6f7f8;
 }
 
 div.main-container {
@@ -82,8 +82,8 @@ section.hero-section {
   align-items: center;
 }
 
-.hero-section>ul > li,
-.about-section>ul > li {
+.hero-section >ul > li,
+.about-section >ul > li {
   margin-right: 20px;
 }
 
