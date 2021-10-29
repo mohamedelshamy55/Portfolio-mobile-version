@@ -1,37 +1,36 @@
-/* Header Section */
+  /* Header Section */
 
-.limited {
+  .limited {
     margin: 24px;
-}
+  }
 
-header {
+  header {
     display: flex;
     justify-content: space-between;
     background: #fff;
     align-items: center;
     padding: 24px;
-}
+  }
 
-header .logo a {
+  header .logo a {
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 20px;
     color: #6070ff;
-}
+  }
 
-header nav .desktop-menu {
+  header nav .desktop-menu {
     display: none;
-}
+  }
 
+  /* Hero Section  & About Section */
 
-/* Hero Section  & About Section */
-
-main {
+  main {
     background-color: #f6f7f8;
-}
+  }
 
-div.main-container {
+  div.main-container {
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -39,23 +38,23 @@ div.main-container {
     background-size: 100% 90%;
     height: 100vh;
     border-bottom-left-radius: 100px;
-}
+  }
 
-section.hero-section {
+  section.hero-section {
     margin-top: 120px;
-}
+  }
 
-.hero-section>h1,
-.about-section>h1 {
+  .hero-section > h1,
+  .about-section > h1 {
     font-style: normal;
     font-weight: bold;
     font-size: 45px;
     line-height: 52px;
     color: #172b4d;
-}
+  }
 
-.hero-section>h4,
-.about-section>h4 {
+  .hero-section > h4,
+  .about-section > h4 {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -63,155 +62,152 @@ section.hero-section {
     color: #7f8cff;
     text-transform: uppercase;
     margin: 14px 0;
-}
+  }
 
-.hero-section>p,
-.about-section>p {
+  .hero-section > p,
+  .about-section > p {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
     color: #344563;
-}
+  }
 
-.hero-section>ul,
-.about-section>ul {
+  .hero-section > ul,
+  .about-section > ul {
     display: flex;
     margin: 0;
     list-style: none;
     padding: 0;
     align-items: center;
-}
+  }
 
-.hero-section>ul>li,
-.about-section>ul>li {
+  .hero-section>ul > li,
+  .about-section>ul > li {
     margin-right: 20px;
-}
+  }
 
-.about-section>button {
+  .about-section > button {
     width: 162px;
     height: 48px;
-}
+  }
 
+  /* Projects Section */
 
-/* Projects Section */
-
-section.card-container {
+  section.card-container {
     margin-top: 114px;
     display: grid;
     grid-template-columns: 1fr;
     gap: 88px 0;
     margin-bottom: 0;
-}
+  }
 
+  /* About Section */
 
-/* About Section */
-
-.about {
+  .about {
     margin-top: 114px;
     background: #fff;
     border-top-right-radius: 100px;
     padding-top: 114px;
-}
+  }
 
-.about-section {
+  .about-section {
     margin-top: 0;
-}
+  }
 
-.about-section h1 {
+  .about-section h1 {
     margin: 0;
-}
+  }
 
-.about-section p {
+  .about-section p {
     margin: 12px 0;
-}
+  }
 
-.about-section h4 {
+  .about-section h4 {
     margin: 0 0 26px;
-}
+  }
 
-.about-section>ul {
+  .about-section > ul {
     margin-bottom: 22px;
-}
+  }
 
-.languages {
+  .languages {
     margin-bottom: 113px;
-}
+  }
 
-.languages>ul {
+  .languages > ul {
     list-style: none;
     margin: 0;
     padding: 0;
-}
+  }
 
-.languages>ul>li {
+  .languages > ul > li {
     display: flex;
     justify-content: space-between;
     padding: 24px 0 24px 0;
     cursor: pointer;
-}
+  }
 
-.languages>ul>li span {
+  .languages > ul > li span {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     margin-left: 12px;
-}
+  }
 
-.languages>ul>li img {
+  .languages > ul > li img {
     margin-right: 42px;
-}
+  }
 
-.languages>ul>li img.clicked {
+  .languages > ul > li img.clicked {
     transform: rotate(90deg);
-}
+  }
 
-.languages>ul>li.divider {
+  .languages > ul > li.divider {
     display: block;
     padding: 0;
-}
+  }
 
-.languages>ul>li.divider hr {
+  .languages > ul > li.divider hr {
     border: none;
     border-top: solid 2px #dfe1e6;
-}
+  }
 
-.languages>ul>li.dropdown-list {
+  .languages > ul > li.dropdown-list {
     display: block;
-}
+  }
 
-.languages>ul>li.dropdown-list img {
+  .languages > ul > li.dropdown-list img {
     margin-right: 0;
-}
+  }
 
-li.dropdown-list ul {
+  li.dropdown-list ul {
     list-style: none;
     padding: 0;
-}
+  }
 
-li.dropdown-list ul li {
+  li.dropdown-list ul li {
     display: flex;
     align-items: center;
     margin: 12px;
     padding: 9px 0 9.72px 12px;
     background: #f7f7f9;
     border-radius: 8px;
-}
+  }
 
-li.dropdown-list ul li span {
+  li.dropdown-list ul li span {
     margin-left: 16px;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
     color: #253858;
-}
+  }
 
+  /* Footer Section */
 
-/* Footer Section */
-
-footer {
+  footer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -221,24 +217,24 @@ footer {
     background-position: 100% 21px;
     padding: 103px 24px 17px;
     border-top-left-radius: 85px;
-}
+  }
 
-section.contact-heading {
+  section.contact-heading {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+  }
 
-section.contact-heading>h2 {
+  section.contact-heading > h2 {
     margin: 0;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
     line-height: 52px;
     color: #fff;
-}
+  }
 
-section.contact-heading>p {
+  section.contact-heading > p {
     margin: 12px 0 54px;
     font-style: normal;
     font-weight: normal;
@@ -246,18 +242,18 @@ section.contact-heading>p {
     line-height: 28px;
     color: #ebebff;
     text-align: center;
-}
+  }
 
-section.contact-form {
+  section.contact-form {
     width: 100%;
-}
+  }
 
-.contact-form form {
+  .contact-form form {
     display: flex;
     flex-direction: column;
-}
+  }
 
-section.contact-form form input {
+  section.contact-form form input {
     width: 100%;
     padding: 15px 38px 15px 16px;
     border: 1px solid #cfd8dc;
@@ -266,17 +262,17 @@ section.contact-form form input {
     font-weight: normal;
     font-size: 17px;
     line-height: 20px;
-}
+  }
 
-section.contact-form form input:first-child {
+  section.contact-form form input:first-child {
     margin-bottom: 20px;
-}
+  }
 
-section.contact-form form input::placeholder {
+  section.contact-form form input::placeholder {
     color: #172b4d;
-}
+  }
 
-section.contact-form form textarea {
+  section.contact-form form textarea {
     width: 100%;
     height: 170px;
     padding: 15px 38px 15px 16px;
@@ -288,8 +284,8 @@ section.contact-form form textarea {
     font-size: 15px;
     line-height: 24px;
     background: #fff;
-}
+  }
 
-section.contact-form form textarea::placeholder {
+  section.contact-form form textarea::placeholder {
     color: #b3bac5;
-}
+  }
